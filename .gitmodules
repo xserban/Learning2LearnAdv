@@ -1,3 +1,6 @@
 [submodule "cleverhansl2l"]
 	path = cleverhansl2l
 	url = https://github.com/NullConvergence/cleverhansl2l
+[submodule "cleverhans-l2l"]
+	path = cleverhans-l2l
+	url = https://github.com/NullConvergence/cleverhans-l2l
