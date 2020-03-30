@@ -1,0 +1,66 @@
+{
+  "fc": [{
+      "flags": {
+        "adversarial": {
+          "type": "bool",
+          "value": false
+        },
+        "num_epochs": {
+          "type": "integer",
+          "value": 15
+        },
+        "num_epochs_test": {
+          "type": "integer",
+          "value": 3
+        }
+      }
+    },
+    {
+      "flags": {
+        "adversarial": {
+          "type": "bool",
+          "value": true
+        },
+        "num_epochs": {
+          "type": "integer",
+          "value": 15
+        },
+        "num_epochs_test": {
+          "type": "integer",
+          "value": 3
+        },
+        "train_attack": {
+          "type": "string",
+          "value": "fgsm"
+        },
+        "test_attack": {
+          "type": "string",
+          "value": "fgsm"
+        }
+      }
+    }, {
+      "flags": {
+        "adversarial": {
+          "type": "bool",
+          "value": true
+        },
+        "num_epochs": {
+          "type": "integer",
+          "value": 15
+        },
+        "num_epochs_test": {
+          "type": "integer",
+          "value": 3
+        },
+        "train_attack": {
+          "type": "string",
+          "value": "madry"
+        },
+        "test_attack": {
+          "type": "string",
+          "value": "madry"
+        }
+      }
+    }
+  ]
+}

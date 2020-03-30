@@ -1,0 +1,24 @@
+{
+    "python.pythonPath": "/Users/alexandru/anaconda/bin/python",
+    "python.autoComplete.extraPaths": [
+        "${env:SPARK_HOME}/python",
+        "${env:SPARK_HOME}/python/pyspark"
+    ],
+
+    "python.linting.pylintEnabled": true,
+    "python.linting.pep8Enabled": false,
+    "python.formatting.autopep8Args": ["--indent-size=2"],
+
+    "python.unitTest.unittestEnabled": true,
+    "python.unitTest.pyTestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.autoTestDiscoverOnSaveEnabled": true,
+    "python.unitTest.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "*_test.py"
+    ],
+
+}
