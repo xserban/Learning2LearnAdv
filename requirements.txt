@@ -1,5 +1,5 @@
 mock==2.0.0
-numpy==1.14.2
+numpy==1.22.0
 tensorflow==1.15.2
 cleverhans==3.0.1
 matplotlib==2.0.2
